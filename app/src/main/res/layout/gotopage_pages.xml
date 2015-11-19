@@ -24,9 +24,9 @@
             android:layout_marginLeft="4dip"
             android:layout_marginRight="2dip"
             android:layout_weight="1"
-            android:inputType="number"
+            android:inputType="numberSigned"
             android:minEms="4"
-            android:numeric="integer"
+            android:numeric="signed"
             android:textSize="24dip"
             android:textStyle="bold" />
 
