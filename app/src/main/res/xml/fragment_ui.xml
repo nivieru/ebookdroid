@@ -75,7 +75,7 @@
             android:title="@string/pref_pagenumbertoastposition_title" />
 
     <ListPreference
-            android:defaultValue="@string/pref_toastposition_leftbottom"
+            android:defaultValue="@string/pref_toastposition_invisible"
             android:entries="@array/pref_toastposition_entries"
             android:entryValues="@array/pref_toastposition_values"
             android:key="@string/pref_zoomtoastposition_id"
