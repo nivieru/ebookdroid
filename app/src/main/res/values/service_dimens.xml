@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="actionbar_height">52dip</dimen>
+    <dimen name="actionbar_separator_height">44dip</dimen>
+    <dimen name="actionbar_separator_width">4dip</dimen>
+
+    <dimen name="recent_bookcase_title_margin">1dip</dimen>
+
+</resources>

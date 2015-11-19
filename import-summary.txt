@@ -1,0 +1,667 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* art/
+* art/new/
+* art/new/activities/
+* art/new/activities/about/
+* art/new/activities/about/about_gradient.xml
+* art/new/activities/browser/
+* art/new/activities/browser/actionbar/
+* art/new/activities/browser/actionbar/browser_actionbar_nav_home.svg
+* art/new/activities/browser/actionbar/browser_actionbar_nav_up_disabled.svg
+* art/new/activities/browser/actionbar/browser_actionbar_nav_up_enabled.svg
+* art/new/activities/browser/item/
+* art/new/activities/browser/item/browser_item_book.png
+* art/new/activities/browser/item/browser_item_folder_open.png
+* art/new/activities/browser/item/browser_item_folder_watched.png
+* art/new/activities/common/
+* art/new/activities/common/actionbar/
+* art/new/activities/common/actionbar/common_actionbar_about.svg
+* art/new/activities/common/actionbar/common_actionbar_allsettings.svg
+* art/new/activities/common/actionbar/common_actionbar_close.svg
+* art/new/activities/common/actionbar/common_actionbar_gradient.xml
+* art/new/activities/common/actionbar/common_actionbar_recent_library.svg
+* art/new/activities/common/actionbar/common_actionbar_separator.xml
+* art/new/activities/common/menu/
+* art/new/activities/common/menu/common_menu_about.svg
+* art/new/activities/common/menu/common_menu_allsettings.svg
+* art/new/activities/common/menu/common_menu_close.svg
+* art/new/activities/opds/
+* art/new/activities/opds/actionbar/
+* art/new/activities/opds/actionbar/opds_actionbar_nav_home.svg
+* art/new/activities/opds/actionbar/opds_actionbar_nav_next_disabled.svg
+* art/new/activities/opds/actionbar/opds_actionbar_nav_next_enabled.svg
+* art/new/activities/opds/actionbar/opds_actionbar_nav_prev_disabled.svg
+* art/new/activities/opds/actionbar/opds_actionbar_nav_prev_enabled.svg
+* art/new/activities/opds/actionbar/opds_actionbar_nav_up_disabled.svg
+* art/new/activities/opds/actionbar/opds_actionbar_nav_up_enabled.svg
+* art/new/activities/opds/actionbar/opds_actionbar_refresh.svg
+* art/new/activities/opds/item/
+* art/new/activities/opds/item/opds_item_book.png
+* art/new/activities/opds/item/opds_item_feed.png
+* art/new/activities/opds/menu/
+* art/new/activities/opds/menu/opds_menu_nav_home.svg
+* art/new/activities/opds/menu/opds_menu_nav_next_disabled.svg
+* art/new/activities/opds/menu/opds_menu_nav_next_enabled.svg
+* art/new/activities/opds/menu/opds_menu_nav_prev_disabled.svg
+* art/new/activities/opds/menu/opds_menu_nav_prev_enabled.svg
+* art/new/activities/opds/menu/opds_menu_nav_up_disabled.svg
+* art/new/activities/opds/menu/opds_menu_nav_up_enabled.svg
+* art/new/activities/opds/menu/opds_menu_refresh.svg
+* art/new/activities/recent/
+* art/new/activities/recent/actionbar/
+* art/new/activities/recent/actionbar/recent_actionbar_backup.svg
+* art/new/activities/recent/actionbar/recent_actionbar_clear.svg
+* art/new/activities/recent/actionbar/recent_actionbar_filebrowser.svg
+* art/new/activities/recent/actionbar/recent_actionbar_library.svg
+* art/new/activities/recent/actionbar/recent_actionbar_opdsbrowser.svg
+* art/new/activities/recent/actionbar/recent_actionbar_recent.png
+* art/new/activities/recent/actionbar/recent_actionbar_recent.svg
+* art/new/activities/recent/actionbar/recent_actionbar_searchbook.svg
+* art/new/activities/recent/bookcase/
+* art/new/activities/recent/bookcase/recent_bookcase_nav_next.png
+* art/new/activities/recent/bookcase/recent_bookcase_nav_prev.png
+* art/new/activities/recent/bookcase/recent_bookcase_pine_left.png
+* art/new/activities/recent/bookcase/recent_bookcase_pine_right.png
+* art/new/activities/recent/bookcase/recent_bookcase_shelf_caption.png
+* art/new/activities/recent/bookcase/recent_bookcase_shelf_panel.png
+* art/new/activities/recent/bookcase/recent_bookcase_shelf_panel_left.png
+* art/new/activities/recent/bookcase/recent_bookcase_shelf_panel_right.png
+* art/new/activities/recent/bookcase/recent_bookcase_web_left.png
+* art/new/activities/recent/bookcase/recent_bookcase_web_right.png
+* art/new/activities/recent/item/
+* art/new/activities/recent/item/recent_item_book.png
+* art/new/activities/recent/item/recent_item_book_watched.png
+* art/new/activities/recent/item/recent_item_folder_open.png
+* art/new/activities/recent/item/recent_item_folder_watched.png
+* art/new/activities/recent/menu/
+* art/new/activities/recent/menu/recent_menu_backup.svg
+* art/new/activities/recent/menu/recent_menu_clear.svg
+* art/new/activities/recent/menu/recent_menu_opdsbrowser.svg
+* art/new/activities/recent/menu/recent_menu_searchbook.svg
+* art/new/activities/viewer/
+* art/new/activities/viewer/actionbar/
+* art/new/activities/viewer/actionbar/viewer_actionbar_menu_fastsettings.svg
+* art/new/activities/viewer/actionbar/viewer_actionbar_menu_navigation.svg
+* art/new/activities/viewer/actionbar/viewer_actionbar_menu_settings.svg
+* art/new/activities/viewer/goto_dlg/
+* art/new/activities/viewer/goto_dlg/viewer_goto_dlg_bookmark_add.svg
+* art/new/activities/viewer/goto_dlg/viewer_goto_dlg_bookmark_remove.svg
+* art/new/activities/viewer/goto_dlg/viewer_goto_dlg_bookmark_remove_all.svg
+* art/new/activities/viewer/goto_dlg/viewer_goto_dlg_goto.svg
+* art/new/activities/viewer/goto_dlg/viewer_goto_dlg_goto_background.xml
+* art/new/activities/viewer/goto_dlg/viewer_goto_dlg_progress.xml
+* art/new/activities/viewer/menu/
+* art/new/activities/viewer/menu/viewer_menu_bookmark.svg
+* art/new/activities/viewer/menu/viewer_menu_bookmark_add.svg
+* art/new/activities/viewer/menu/viewer_menu_booksettings.svg
+* art/new/activities/viewer/menu/viewer_menu_crop_auto.svg
+* art/new/activities/viewer/menu/viewer_menu_crop_manual.svg
+* art/new/activities/viewer/menu/viewer_menu_daynight.svg
+* art/new/activities/viewer/menu/viewer_menu_fullscreen.svg
+* art/new/activities/viewer/menu/viewer_menu_goto.svg
+* art/new/activities/viewer/menu/viewer_menu_keybindings.svg
+* art/new/activities/viewer/menu/viewer_menu_outline.svg
+* art/new/activities/viewer/menu/viewer_menu_searchtext.svg
+* art/new/activities/viewer/menu/viewer_menu_showtitle.svg
+* art/new/activities/viewer/menu/viewer_menu_split_pages.svg
+* art/new/activities/viewer/menu/viewer_menu_split_pages_off.svg
+* art/new/activities/viewer/menu/viewer_menu_tapconfig.svg
+* art/new/activities/viewer/menu/viewer_menu_thumbnail.svg
+* art/new/activities/viewer/menu/viewer_menu_zoom.svg
+* art/new/activities/viewer/outline/
+* art/new/activities/viewer/outline/item/
+* art/new/activities/viewer/outline/item/viewer_outline_item_background.xml
+* art/new/activities/viewer/outline/item/viewer_outline_item_background_selected.xml
+* art/new/activities/viewer/outline/item/viewer_outline_item_collapsed.svg
+* art/new/activities/viewer/outline/item/viewer_outline_item_expanded.svg
+* art/new/application_icon.png
+* art/new/components/
+* art/new/components/colorpicker/
+* art/new/components/colorpicker/components_colorpicker_background.xml
+* art/new/components/cropper/
+* art/new/components/cropper/components_cropper_circle.xml
+* art/new/components/curler/
+* art/new/components/curler/components_curler_arrows.png
+* art/new/components/curler/components_curler_drag.png
+* art/new/components/keybinding/
+* art/new/components/keybinding/components_keybinding_gradient.xml
+* art/new/components/search/
+* art/new/components/search/components_search_background.xml
+* art/new/components/search/components_search_backward.png
+* art/new/components/search/components_search_forward.png
+* art/new/components/seekbar/
+* art/new/components/seekbar/components_seekbar_minus.png
+* art/new/components/seekbar/components_seekbar_plus.png
+* art/new/components/spotlight/
+* art/new/components/spotlight/components_spotlight.png
+* art/new/components/spotlight/components_spotlight_blue.png
+* art/new/components/thumbnail/
+* art/new/components/thumbnail/components_thumbnail_corner.png
+* art/new/components/thumbnail/components_thumbnail_left.png
+* art/new/components/thumbnail/components_thumbnail_top.png
+* art/new/components/zoomroll/
+* art/new/components/zoomroll/components_zoomroll_center.png
+* art/new/components/zoomroll/components_zoomroll_left.png
+* art/new/components/zoomroll/components_zoomroll_right.png
+* art/new/components/zoomroll/components_zoomroll_serifs.png
+* art/new/sources/
+* art/new/sources/Book Studio/
+* art/new/sources/Book Studio/Book - Copia (2).svg
+* art/new/sources/Book Studio/Book - Copia.svg
+* art/new/sources/Book Studio/Book.png
+* art/new/sources/Book Studio/Book.svg
+* art/new/sources/Book Studio/Copy of Book.svg
+* art/new/sources/Book.svg
+* art/new/sources/Buttons.svg
+* art/new/sources/Copy of icontemplate.svg
+* art/new/sources/External Sources/
+* art/new/sources/External Sources/Antarctica_on_the_globe_(red).svg
+* art/new/sources/External Sources/Blank_globe.svg
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg.htm
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/101px-City_of_San_Marino_in_San_Marino_pop_areas.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/101px-Lower_Saxony_in_Germany_relief_shade.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/101px-Lower_Saxony_in_Germany_relief_shade_special_marker.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/111px-Jammu_and_Kashmir_in_India_de-facto_claimed_hatched_cl.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Acklins_in_Bahamas_zoom.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Alaska_in_United_States.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Antarctica_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Dpartement_971_in_France_-mini_map_zoom.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-France_in_Oceania_French_Polynesia_special_small_islan.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Germany_in_Europe_blue_marble_-mini_map.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Italy_in_Europe.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Milne_Bay_in_Papua_New_Guinea_special_marker.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Morocco_in_its_region_de-facto_and_disputed_hatched.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Morocco_in_its_region_disputed_hatched.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Mtskheta-Mtianeti_in_Georgia_semi-secession_disputed_h.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Nigeria_in_Africa.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Nigeria_in_its_region.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Poland_in_European_Union_-rivers_-mini_map.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Positionskartenerstellung_-_Signaturvorlage.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Reunion_in_France.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Rhode_Island_in_United_States_special_marker_US48.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Rhode_Island_in_United_States_zoom_extra_close_US48.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Russia_on_the_globe_Russia_centered.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Samoa_in_Oceania_relief_-mini_map.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Serbia_in_its_region_claimed_hatched.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-St_Peter_Port_in_Guernsey_zoom.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Suurland_in_Iceland.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Sweden_in_Europe_natural_-mini_map.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Taiwan_in_China_claimed_hatched_all_claims_hatched.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/120px-Texas_in_United_States_US48.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/15px-Email.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/18px-Wikimedia-logo.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/18px-Wikiquote-logo.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/20px-Adobe_Illustrator_CS5_icon_Close_reproduction.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/20px-Antarctica_orthographic_projection.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/20px-Commonist.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/20px-Gnome-emblem-photos.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/20px-SVG_in_SVG.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/24px-Cc-by_new_white.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/24px-Cc-sa.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/25px-European_Union_on_the_globe_Europe_centered.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/30px-Commons-logo.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/55px-Africa_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/55px-Antarctica_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/55px-Asia_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/55px-Europe_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/55px-North_America_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/55px-Oceania_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/55px-South_America_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/600px-Antarctica_on_the_globe_red.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/64px-Heckert_GNU_white.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/70px-Newspaper_Cover_Copyright.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/84px-Pec_in_Serbia_Kosovo_semi-independent_UNMIK.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/90px-CC_some_rights_reserved.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/closewindow19x19.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/geoiplookup
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/index.css
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/index.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/index_002.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/index_003.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load.css
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load_002.css
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load_002.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load_003.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load_004.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load_005.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load_006.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/load_007.php
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/poweredby_mediawiki_88x31.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/search-ltr.png
+* art/new/sources/External Sources/File Antarctica_on_the_globe_(red).svg_files/wikimedia-button.png
+* art/new/sources/External Sources/File Blank_globe.svg.htm
+* art/new/sources/External Sources/File Blank_globe.svg_files/
+* art/new/sources/External Sources/File Blank_globe.svg_files/120px-Blank_globe.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/14px-Commons-logo.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/210px-Blank_globe.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/30px-Commons-logo.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/32px-W3C_Icon.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/60px-Wiki_Loves_Monuments_Logo_notext.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/64px-PD-icon.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/77px-rebro_slott_resynth.jpg
+* art/new/sources/External Sources/File Blank_globe.svg_files/closewindow19x19.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/geoiplookup
+* art/new/sources/External Sources/File Blank_globe.svg_files/index.css
+* art/new/sources/External Sources/File Blank_globe.svg_files/index.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/index_002.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/index_003.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/index_004.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/load.css
+* art/new/sources/External Sources/File Blank_globe.svg_files/load.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/load_002.css
+* art/new/sources/External Sources/File Blank_globe.svg_files/load_002.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/load_003.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/load_004.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/load_005.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/load_006.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/load_007.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/load_008.php
+* art/new/sources/External Sources/File Blank_globe.svg_files/poweredby_mediawiki_88x31.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/search-ltr.png
+* art/new/sources/External Sources/File Blank_globe.svg_files/wikimedia-button.png
+* art/new/sources/External Sources/File Question_book.svg.htm
+* art/new/sources/External Sources/File Question_book.svg_files/
+* art/new/sources/External Sources/File Question_book.svg_files/120px-Question_book.png
+* art/new/sources/External Sources/File Question_book.svg_files/120px-Question_book_002.png
+* art/new/sources/External Sources/File Question_book.svg_files/120px-Question_book_003.png
+* art/new/sources/External Sources/File Question_book.svg_files/120px-Question_book_004.png
+* art/new/sources/External Sources/File Question_book.svg_files/16px-Gtk-dialog-info.png
+* art/new/sources/External Sources/File Question_book.svg_files/16px-Gtk-dialog-question.png
+* art/new/sources/External Sources/File Question_book.svg_files/252px-Question_book.png
+* art/new/sources/External Sources/File Question_book.svg_files/60px-Wiki_Loves_Monuments_Logo_notext.png
+* art/new/sources/External Sources/File Question_book.svg_files/77px-rebro_slott_resynth.jpg
+* art/new/sources/External Sources/File Question_book.svg_files/Gtk-dialog-info-14px.png
+* art/new/sources/External Sources/File Question_book.svg_files/closewindow19x19.png
+* art/new/sources/External Sources/File Question_book.svg_files/geoiplookup
+* art/new/sources/External Sources/File Question_book.svg_files/index.css
+* art/new/sources/External Sources/File Question_book.svg_files/index.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_002.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_003.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_004.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_005.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_006.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_007.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_008.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_009.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_011.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_012.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_013.php
+* art/new/sources/External Sources/File Question_book.svg_files/index_014.php
+* art/new/sources/External Sources/File Question_book.svg_files/load.css
+* art/new/sources/External Sources/File Question_book.svg_files/load.php
+* art/new/sources/External Sources/File Question_book.svg_files/load_002.css
+* art/new/sources/External Sources/File Question_book.svg_files/load_002.php
+* art/new/sources/External Sources/File Question_book.svg_files/load_003.php
+* art/new/sources/External Sources/File Question_book.svg_files/load_004.php
+* art/new/sources/External Sources/File Question_book.svg_files/load_005.php
+* art/new/sources/External Sources/File Question_book.svg_files/load_006.php
+* art/new/sources/External Sources/File Question_book.svg_files/load_007.php
+* art/new/sources/External Sources/File Question_book.svg_files/load_008.php
+* art/new/sources/External Sources/File Question_book.svg_files/load_009.php
+* art/new/sources/External Sources/File Question_book.svg_files/poweredby_mediawiki_88x31.png
+* art/new/sources/External Sources/File Question_book.svg_files/search-ltr.png
+* art/new/sources/External Sources/File Question_book.svg_files/wikimedia-button.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg.htm
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/100px-04180418-Crossbow_Shop_Dwarven_Mine_location.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/100px-1548230668-Crossbow_Shop_Dwarven_Mine.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/100px-1707650594-Drogos_Mining_Emporium.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/120px-Stop_hand_nuvola_black.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/240px-Stop_hand_nuvola_black.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/40px-Padlock-red.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/64px-Heckert_GNU_white.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/ChatEntryPoint.css
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/ImageLazyLoadNoScript.css
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/UserLoginDropdown.css
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/Wiki-wordmark.png
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/analytics_prod.js
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/load.css
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/load.php
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/load_002.css
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/load_002.php
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/oasis.css
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/oasis_blockingabtesting.js
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/popover.css
+* art/new/sources/External Sources/File Stop_hand_nuvola_black.svg_files/view
+* art/new/sources/External Sources/Question_book.svg
+* art/new/sources/External Sources/Stop_hand_nuvola_black.svg
+* art/new/sources/Folder Studio/
+* art/new/sources/Folder Studio/folder template.png
+* art/new/sources/Folder Studio/folder template.svg
+* art/new/sources/Folder Studio/foldertemplate_light.png
+* art/new/sources/Folder Studio/foldertemplate_light.svg
+* art/new/sources/Folder Studio/foldertemplate_moreopen.svg
+* art/new/sources/Folder Studio/foldertemplate_reverse.png
+* art/new/sources/Folder Studio/foldertemplate_reverse.svg
+* art/new/sources/Folder Studio/foldertemplate_slanted.svg
+* art/new/sources/Folder Studio/foldertemplate_slanted_darker.png
+* art/new/sources/Folder Studio/foldertemplate_slanted_darker.svg
+* art/new/sources/Folder Studio/foldertemplate_slanted_darker_reverse.png
+* art/new/sources/Folder Studio/foldertemplate_slanted_darker_reverse.svg
+* art/new/sources/Folder Studio/foldertemplate_slanted_light.png
+* art/new/sources/OPDS.png
+* art/new/sources/OPDS.svg
+* art/new/sources/OPDS_home.png
+* art/new/sources/OPDS_home.svg
+* art/new/sources/OPDS_next.png
+* art/new/sources/OPDS_next.svg
+* art/new/sources/OPDS_next_disabled.png
+* art/new/sources/OPDS_next_disabled.svg
+* art/new/sources/OPDS_previous.png
+* art/new/sources/OPDS_previous.svg
+* art/new/sources/OPDS_previous_disabled.png
+* art/new/sources/OPDS_previous_disabled.svg
+* art/new/sources/OPDS_refresh.png
+* art/new/sources/OPDS_refresh.svg
+* art/new/sources/OPDS_up.png
+* art/new/sources/OPDS_up.svg
+* art/new/sources/OPDS_up_disabled.png
+* art/new/sources/OPDS_up_disabled.svg
+* art/new/sources/Old/
+* art/new/sources/Old/Copy of various templates.svg
+* art/new/sources/Old/CropSquare.png
+* art/new/sources/Old/CropSquare.svg
+* art/new/sources/Old/OPDS_old1.png
+* art/new/sources/Old/OPDS_old1.svg
+* art/new/sources/Old/OPDS_old2.png
+* art/new/sources/Old/OPDS_old2.svg
+* art/new/sources/Old/actionbar_recent - Copia.svg
+* art/new/sources/Old/backupBIG.svg
+* art/new/sources/Old/backupFat.png
+* art/new/sources/Old/backupFat.svg
+* art/new/sources/Old/crop and lock.png
+* art/new/sources/Old/crop and lock.svg
+* art/new/sources/Old/crop-manual-hand.png
+* art/new/sources/Old/crop-manual-hand.svg
+* art/new/sources/Old/crop2Fat.png
+* art/new/sources/Old/crop2Fat.svg
+* art/new/sources/Old/folderviewSquare.png
+* art/new/sources/Old/folderviewSquare.svg
+* art/new/sources/Old/homeSquare.png
+* art/new/sources/Old/homeSquare.svg
+* art/new/sources/Old/lock.png
+* art/new/sources/Old/lock.svg
+* art/new/sources/Old/lockSquare.png
+* art/new/sources/Old/lockSquare.svg
+* art/new/sources/Old/recentFat.png
+* art/new/sources/Old/recentFat.svg
+* art/new/sources/Old/rounded icon sample.svg
+* art/new/sources/Old/searchSquare.png
+* art/new/sources/Old/searchSquare.svg
+* art/new/sources/Old/searchbooksSquare.png
+* art/new/sources/Old/searchbooksSquare.svg
+* art/new/sources/Old/searchtextSquare.png
+* art/new/sources/Old/searchtextSquare.svg
+* art/new/sources/Old/shelfviewSquare.png
+* art/new/sources/Old/shelfviewSquare.svg
+* art/new/sources/Old/various templates.svg
+* art/new/sources/Original/
+* art/new/sources/Original/Guidelines.txt
+* art/new/sources/Original/Original redone/
+* art/new/sources/Original/Original redone/about.png
+* art/new/sources/Original/Original redone/actionbar_libraryOLD.png
+* art/new/sources/Original/Original redone/actionbar_openOLD.png
+* art/new/sources/Original/Original redone/actionbar_recentOLD.png
+* art/new/sources/Original/Original redone/bookmarkOLD.png
+* art/new/sources/Original/Original redone/clearOLD.png
+* art/new/sources/Original/Original redone/closeOLD.png
+* art/new/sources/Original/Original redone/daynightOLD.png
+* art/new/sources/Original/Original redone/gotopageOLD.png
+* art/new/sources/Original/Original redone/outlineOLD.png
+* art/new/sources/Original/Original redone/settingsOLD.png
+* art/new/sources/Original/Original redone/triangle_downOLD.png
+* art/new/sources/Original/Original redone/triangle_rightOLD.png
+* art/new/sources/Original/Original redone/zoomfitOLD.png
+* art/new/sources/Original/actionbar_background_tile.png
+* art/new/sources/Original/components_search_backward.png
+* art/new/sources/Original/components_search_forward.png
+* art/new/sources/Original/components_spotlight.png
+* art/new/sources/Original/components_spotlight_blue.png
+* art/new/sources/Original/components_thumbnail_corner.png
+* art/new/sources/Original/components_thumbnail_left.png
+* art/new/sources/Original/components_thumbnail_top.png
+* art/new/sources/Original/icon.png
+* art/new/sources/Original/recent_bookcase_nav_next.png
+* art/new/sources/Original/recent_bookcase_nav_prev.png
+* art/new/sources/Original/recent_bookcase_shelf_caption.png
+* art/new/sources/about.png
+* art/new/sources/about.svg
+* art/new/sources/actionbar_OPDS.png
+* art/new/sources/actionbar_OPDS.svg
+* art/new/sources/actionbar_home.png
+* art/new/sources/actionbar_home.svg
+* art/new/sources/actionbar_library.png
+* art/new/sources/actionbar_library.svg
+* art/new/sources/actionbar_open.png
+* art/new/sources/actionbar_open.svg
+* art/new/sources/actionbar_recentLibrary.png
+* art/new/sources/actionbar_recentLibrary.svg
+* art/new/sources/actionbar_recentSimple.png
+* art/new/sources/actionbar_recentSimple.svg
+* art/new/sources/actionbar_uplevel.png
+* art/new/sources/actionbar_uplevel.svg
+* art/new/sources/actionbar_uplevel_disabled.png
+* art/new/sources/actionbar_uplevel_disabled.svg
+* art/new/sources/backup.png
+* art/new/sources/backup.svg
+* art/new/sources/bookmark_add.png
+* art/new/sources/bookmark_add.svg
+* art/new/sources/bookmark_remove.png
+* art/new/sources/bookmark_remove.svg
+* art/new/sources/bookmark_remove_all.png
+* art/new/sources/bookmark_remove_all.svg
+* art/new/sources/clear.png
+* art/new/sources/clear.svg
+* art/new/sources/close.png
+* art/new/sources/close.svg
+* art/new/sources/crop-auto.png
+* art/new/sources/crop-auto.svg
+* art/new/sources/crop-manual.png
+* art/new/sources/crop-manual.svg
+* art/new/sources/daynight.png
+* art/new/sources/daynight.svg
+* art/new/sources/foldertemplate.png
+* art/new/sources/foldertemplate.svg
+* art/new/sources/foldertemplate_actionbar.png
+* art/new/sources/foldertemplate_actionbar.svg
+* art/new/sources/foldertemplate_button.png
+* art/new/sources/foldertemplate_button.svg
+* art/new/sources/fullscreen.png
+* art/new/sources/fullscreen.svg
+* art/new/sources/goto.png
+* art/new/sources/goto.svg
+* art/new/sources/icontemplate.png
+* art/new/sources/icontemplate.svg
+* art/new/sources/icontemplateFatBorder.png
+* art/new/sources/icontemplateFatBorder.svg
+* art/new/sources/icontemplateSquare.png
+* art/new/sources/icontemplateSquare.svg
+* art/new/sources/keyconfig.png
+* art/new/sources/keyconfig.svg
+* art/new/sources/note_add.png
+* art/new/sources/note_add.svg
+* art/new/sources/note_remove.png
+* art/new/sources/note_remove.svg
+* art/new/sources/note_remove_all.png
+* art/new/sources/note_remove_all.svg
+* art/new/sources/outline.png
+* art/new/sources/outline.svg
+* art/new/sources/readme.txt
+* art/new/sources/recent.png
+* art/new/sources/recent.svg
+* art/new/sources/recent_bookcase_nav_next.png
+* art/new/sources/recent_bookcase_nav_next.svg
+* art/new/sources/recent_bookcase_nav_prev.png
+* art/new/sources/recent_bookcase_nav_prev.svg
+* art/new/sources/recent_bookcase_shelf_caption.svg
+* art/new/sources/search_books.png
+* art/new/sources/search_books.svg
+* art/new/sources/search_template.png
+* art/new/sources/search_template.svg
+* art/new/sources/search_text.png
+* art/new/sources/search_text.svg
+* art/new/sources/settings.png
+* art/new/sources/settings.svg
+* art/new/sources/settings_book.png
+* art/new/sources/settings_book.svg
+* art/new/sources/shelfview.png
+* art/new/sources/shelfview.svg
+* art/new/sources/showtitle.png
+* art/new/sources/showtitle.svg
+* art/new/sources/splitpages.png
+* art/new/sources/splitpages.svg
+* art/new/sources/splitpages_off.png
+* art/new/sources/splitpages_off.svg
+* art/new/sources/tapconfig.png
+* art/new/sources/tapconfig.svg
+* art/new/sources/thumbnail.png
+* art/new/sources/thumbnail.svg
+* art/new/sources/triangle_down.png
+* art/new/sources/triangle_down.svg
+* art/new/sources/triangle_right.png
+* art/new/sources/triangle_right.svg
+* art/new/sources/zoom.png
+* art/new/sources/zoom.svg
+* art/new/sources/zoom_out.png
+* art/new/sources/zoom_out.svg
+* art/new/update-resources.sh
+* art/old/
+* art/old/drawable-hdpi/
+* art/old/drawable-hdpi/about.png
+* art/old/drawable-hdpi/actionbar_background_tile.png
+* art/old/drawable-hdpi/actionbar_library.png
+* art/old/drawable-hdpi/actionbar_open.png
+* art/old/drawable-hdpi/actionbar_recent.png
+* art/old/drawable-hdpi/backup.png
+* art/old/drawable-hdpi/bookmark.png
+* art/old/drawable-hdpi/clear.png
+* art/old/drawable-hdpi/close.png
+* art/old/drawable-hdpi/crop_auto.png
+* art/old/drawable-hdpi/crop_manual.png
+* art/old/drawable-hdpi/daynight.png
+* art/old/drawable-hdpi/folderview.png
+* art/old/drawable-hdpi/gotopage.png
+* art/old/drawable-hdpi/icon.png
+* art/old/drawable-hdpi/lock.png
+* art/old/drawable-hdpi/outline.png
+* art/old/drawable-hdpi/recent.png
+* art/old/drawable-hdpi/search.png
+* art/old/drawable-hdpi/settings.png
+* art/old/drawable-hdpi/shelfview.png
+* art/old/drawable-hdpi/triangle_down.png
+* art/old/drawable-hdpi/triangle_right.png
+* art/old/drawable-hdpi/zoomfit.png
+* art/old/drawable-ldpi/
+* art/old/drawable-ldpi/actionbar_background_tile.png
+* art/old/drawable-ldpi/actionbar_library.png
+* art/old/drawable-ldpi/actionbar_open.png
+* art/old/drawable-ldpi/actionbar_recent.png
+* art/old/drawable-ldpi/icon.png
+* art/old/drawable-mdpi/
+* art/old/drawable-mdpi/actionbar_background_tile.png
+* art/old/drawable-mdpi/actionbar_library.png
+* art/old/drawable-mdpi/actionbar_open.png
+* art/old/drawable-mdpi/actionbar_recent.png
+* art/old/drawable-mdpi/icon.png
+* art/old/drawable-mdpi/seekbar_pref_minus.png
+* art/old/drawable-mdpi/seekbar_pref_plus.png
+* art/old/drawable/
+* art/old/drawable/actionbar_library.png
+* art/old/drawable/actionbar_open.png
+* art/old/drawable/actionbar_recent.png
+* art/old/drawable/actionbar_separator.xml
+* art/old/drawable/actionbar_shelf.png
+* art/old/drawable/arrowleft.png
+* art/old/drawable/arrowleft_disabled.png
+* art/old/drawable/arrowleft_enabled.png
+* art/old/drawable/arrowright.png
+* art/old/drawable/arrowright_disabled.png
+* art/old/drawable/arrowright_enabled.png
+* art/old/drawable/arrows.png
+* art/old/drawable/arrowup_disabled.png
+* art/old/drawable/arrowup_enabled.png
+* art/old/drawable/book.png
+* art/old/drawable/bookwatched.png
+* art/old/drawable/bt_corner.png
+* art/old/drawable/bt_left.png
+* art/old/drawable/bt_top.png
+* art/old/drawable/center.png
+* art/old/drawable/circle.xml
+* art/old/drawable/color_picke_preference_widget.xml
+* art/old/drawable/drag.png
+* art/old/drawable/folderopen.png
+* art/old/drawable/folderwatched.png
+* art/old/drawable/gradient.xml
+* art/old/drawable/home.png
+* art/old/drawable/icon.png
+* art/old/drawable/left.png
+* art/old/drawable/opds.png
+* art/old/drawable/outline_background.xml
+* art/old/drawable/outline_background_selected.xml
+* art/old/drawable/pine_left.png
+* art/old/drawable/pine_right.png
+* art/old/drawable/progress.xml
+* art/old/drawable/refresh.png
+* art/old/drawable/right.png
+* art/old/drawable/rounded_background.xml
+* art/old/drawable/serifs.png
+* art/old/drawable/shelf_caption1.png
+* art/old/drawable/shelf_panel1.png
+* art/old/drawable/shelf_panel1_left.png
+* art/old/drawable/shelf_panel1_right.png
+* art/old/drawable/spotlight.png
+* art/old/drawable/spotlight_blue.png
+* art/old/drawable/web_left.png
+* art/old/drawable/web_right.png
+* build.core.xml
+* build.properties
+* build.properties~
+* build.xml
+* market/
+* market/device-2011-08-08-144308.png
+* market/device-2011-08-08-144336.png
+* market/device-2011-08-16-135018.png
+* market/device-2011-08-16-135028.png
+* market/icons/
+* market/icons/book_256.png
+* market/icons/book_36.png
+* market/icons/book_48.png
+* market/icons/book_512.png
+* market/icons/book_72.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* jni/ => app/src/main/jni/
+* libs/armeabi/libebookdroid.so => app/src/main/jniLibs/armeabi/libebookdroid.so
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
