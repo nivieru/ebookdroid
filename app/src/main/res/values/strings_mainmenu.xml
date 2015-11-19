@@ -6,6 +6,7 @@
     <string name="menu_outline">Outline</string>
     <string name="menu_zoom">Zoom</string>
     <string name="menu_nightmode">Day/Night</string>
+    <string name="menu_autolevels">Auto levels</string>
     <string name="menu_settings">All Settings</string>
     <string name="menu_booksettings">Book Settings</string>
     <string name="menu_cleanrecent">Clear Recent</string>

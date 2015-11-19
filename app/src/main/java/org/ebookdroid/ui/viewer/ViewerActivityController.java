@@ -103,6 +103,7 @@ actions = {
         @ActionMethodDef(id = R.id.mainmenu_fullscreen, method = "toggleFullScreen"),
         @ActionMethodDef(id = R.id.mainmenu_showtitle, method = "toggleTitleVisibility"),
         @ActionMethodDef(id = R.id.mainmenu_nightmode, method = "toggleNightMode"),
+        @ActionMethodDef(id = R.id.mainmenu_autolevels, method = "toggleAutoLevels"),
         @ActionMethodDef(id = R.id.mainmenu_splitpages, method = "toggleSplitPages"),
         @ActionMethodDef(id = R.id.mainmenu_croppages, method = "toggleCropPages"),
         @ActionMethodDef(id = R.id.mainmenu_thumbnail, method = "setCurrentPageAsThumbnail"),
@@ -538,6 +539,11 @@ public class ViewerActivityController extends ActionController<ViewerActivity> i
     @ActionMethod(ids = R.id.mainmenu_nightmode)
     public void toggleNightMode(final ActionEx action) {
         SettingsManager.toggleNightMode(bookSettings);
+    }
+
+    @ActionMethod(ids = R.id.mainmenu_autolevels)
+    public void toggleAutoLevels(final ActionEx action) {
+        SettingsManager.toggleAutoLevels(bookSettings);
     }
 
     @ActionMethod(ids = R.id.mainmenu_splitpages)

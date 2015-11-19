@@ -47,6 +47,10 @@
                 android:icon="@drawable/viewer_menu_daynight"
                 android:title="@string/menu_nightmode"/>
             <item
+                android:id="@+id/mainmenu_autolevels"
+                android:checkable="true"
+                android:title="@string/menu_autolevels"/>
+            <item
                 android:id="@+id/mainmenu_splitpages"
                 android:checkable="true"
                 android:icon="@drawable/viewer_menu_split_pages"

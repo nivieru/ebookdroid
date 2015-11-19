@@ -36,6 +36,10 @@
                 android:checkable="true"
                 android:title="@string/menu_nightmode"/>
             <item
+                android:id="@+id/mainmenu_autolevels"
+                android:checkable="true"
+                android:title="@string/menu_autolevels"/>
+            <item
                 android:id="@+id/mainmenu_splitpages"
                 android:checkable="true"
                 android:title="@string/pref_splitpages_title"/>

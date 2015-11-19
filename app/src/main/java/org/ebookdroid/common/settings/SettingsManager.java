@@ -282,7 +282,21 @@ public class SettingsManager {
             lock.writeLock().unlock();
         }
     }
-
+    public static void toggleAutoLevels(final BookSettings current) {
+        if (current == null) {
+            return;
+        }
+        lock.writeLock().lock();
+        try {
+            final BookSettings olds = new BookSettings(current);
+            current.autoLevels = !current.autoLevels;
+            current.lastChanged = System.currentTimeMillis();
+            db.storeBookSettings(current);
+            applyBookSettingsChanges(olds, current);
+        } finally {
+            lock.writeLock().unlock();
+        }
+    }
     public static void toggleSplitPages(final BookSettings current) {
         if (current == null) {
             return;
