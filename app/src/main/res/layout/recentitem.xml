@@ -27,7 +27,8 @@
 
     android:gravity="center_vertical"
     android:ellipsize="marquee"
-    android:layout_toRightOf="@+id/recentItemIcon" />
+    android:layout_toRightOf="@+id/recentItemIcon"
+      android:textColor="#000" />
   <TextView
     android:layout_height="0dip"
     android:id="@+id/recentItemInfo"
@@ -39,7 +40,8 @@
     android:layout_alignParentRight="true"
     android:layout_width="wrap_content"
     android:textSize="11sp"
-    android:gravity="top|left" />
+    android:gravity="top|left"
+      android:textColor="#000" />
   <TextView
     android:layout_height="0dip"
     android:id="@+id/recentItemfileSize"
@@ -51,7 +53,8 @@
     android:layout_alignParentRight="true"
     android:layout_width="wrap_content"
     android:textSize="11sp"
-    android:gravity="top|right" />
+    android:gravity="top|right"
+      android:textColor="#000" />
 
 </RelativeLayout>
 
